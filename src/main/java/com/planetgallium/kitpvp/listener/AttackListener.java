@@ -34,7 +34,7 @@ public class AttackListener implements Listener {
 					
 					if (!Game.getInstance().getArena().getKits().hasKit(damagedPlayer.getName())) {
 						
-						damager.sendMessage(Config.tr(resources.getMessages().getString("Messages.Error.Invincible")));
+						// damager.sendMessage(Config.tr(resources.getMessages().getString("Messages.Error.Invincible")));
 						e.setCancelled(true);
 						
 					}
